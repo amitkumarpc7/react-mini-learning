@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "../components/CounterStep.css";
+import "./CounterStep.css";
 
 const CounterStep = () => {
   const [count, setCount] = useState(0);

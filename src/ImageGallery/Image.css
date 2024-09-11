@@ -1,0 +1,33 @@
+.container{
+    text-align: center;
+    margin: 2rem;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+.heading{
+    padding:1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px rgba(0,0,0,30%);
+}
+.gallery-image{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,30%);
+}
+.image-wrapper{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.image-wrapper:hover{
+    transform: scale(1.1);
+}
+.selected-img{
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,30%);
+}

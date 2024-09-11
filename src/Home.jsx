@@ -1,10 +1,12 @@
 import React from 'react'
-import CounterStep from './components/CounterStep'
+import CounterStep from './StepCounter/CounterStep'
+import ImageBuilder from './ImageGallery/ImageBuilder'
 
 const Home = () => {
   return (
     <>
-    <CounterStep/>
+    {/* <CounterStep/> */}
+    <ImageBuilder/>
     
     </>
   )

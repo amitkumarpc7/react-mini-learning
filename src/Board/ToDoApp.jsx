@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Input from "./components/Input";
-import Board from "./components/Board";
+import Input from "./Board/Input";
+import Board from "./Board/Board";
 
-function App() {
+function ToDoApp() {
   const [taskList, setTaskList] = useState([]);
   console.log(taskList);
   console.log(taskList[taskList.length - 1]);
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default ToDoApp;
